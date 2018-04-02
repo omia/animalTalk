@@ -23,11 +23,11 @@ public class WorldGenCustomOre implements IWorldGenerator {
 
     public WorldGenCustomOre()
     {
-        salt_sand = new WorldGenMinable(BlockInit.salt_sand.getDefaultState().withProperty(BlockOres.VARIANT, Enum_Ore_salt.EnumType.saltsand), 15, BlockMatcher.forBlock(Blocks.SAND));
-        salt_dirt = new WorldGenMinable(BlockInit.salt_dirt.getDefaultState().withProperty(BlockOres.VARIANT, Enum_Ore_salt.EnumType.saltdirt), 15, BlockMatcher.forBlock(Blocks.DIRT));
-        salt_gravel = new WorldGenMinable(BlockInit.salt_gravel.getDefaultState().withProperty(BlockOres.VARIANT, Enum_Ore_salt.EnumType.saltgravel), 15, BlockMatcher.forBlock(Blocks.GRAVEL));
-        salt_netherrack = new WorldGenMinable(BlockInit.salt_netherrack.getDefaultState().withProperty(BlockOres.VARIANT, Enum_Ore_salt.EnumType.saltnetherrack), 15, BlockMatcher.forBlock(Blocks.NETHERRACK));
-        salt_endstone = new WorldGenMinable(BlockInit.salt_endstone.getDefaultState().withProperty(BlockOres.VARIANT, Enum_Ore_salt.EnumType.saltendstone), 15, BlockMatcher.forBlock(Blocks.END_STONE));
+        salt_sand = new WorldGenMinable(BlockInit.salt.getDefaultState().withProperty(BlockOres.VARIANT, Enum_Ore_salt.EnumType.saltsand), 15, BlockMatcher.forBlock(Blocks.SAND));
+        salt_dirt = new WorldGenMinable(BlockInit.salt.getDefaultState().withProperty(BlockOres.VARIANT, Enum_Ore_salt.EnumType.saltdirt), 15, BlockMatcher.forBlock(Blocks.DIRT));
+        salt_gravel = new WorldGenMinable(BlockInit.salt.getDefaultState().withProperty(BlockOres.VARIANT, Enum_Ore_salt.EnumType.saltgravel), 15, BlockMatcher.forBlock(Blocks.GRAVEL));
+        salt_netherrack = new WorldGenMinable(BlockInit.salt.getDefaultState().withProperty(BlockOres.VARIANT, Enum_Ore_salt.EnumType.saltnetherrack), 15, BlockMatcher.forBlock(Blocks.NETHERRACK));
+        salt_endstone = new WorldGenMinable(BlockInit.salt.getDefaultState().withProperty(BlockOres.VARIANT, Enum_Ore_salt.EnumType.saltendstone), 15, BlockMatcher.forBlock(Blocks.END_STONE));
     }
 
     @Override

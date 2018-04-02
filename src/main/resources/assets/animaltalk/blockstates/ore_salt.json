@@ -1,0 +1,10 @@
+{
+  "variant":
+  {
+    "variant=saltsand": { "model": "animaltalk:ore_saltsand" },
+    "variant=saltdirt": { "model": "animaltalk:ore_saltdirt" },
+    "variant=saltgravel": { "model": "animaltalk:ore_saltgravel" },
+    "variant=saltnetherrack": { "model": "animaltalk:ore_saltnetherrack" },
+    "variant=saltendstone": { "model": "animaltalk:ore_saltendstone" }
+  }
+}
