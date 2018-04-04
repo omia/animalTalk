@@ -1,7 +1,7 @@
 package info.omia.animalTalk.world.gen;
 
 import info.omia.animalTalk.init.BlockInit;
-import info.omia.animalTalk.init.BlockOres;
+import info.omia.animalTalk.blocks.Block_Ore_Salt;
 import info.omia.animalTalk.util.handlers.Enum_Ore.Enum_Ore_salt;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.pattern.BlockMatcher;
@@ -23,11 +23,11 @@ public class WorldGenCustomOre implements IWorldGenerator {
 
     public WorldGenCustomOre()
     {
-        salt_sand = new WorldGenMinable(BlockInit.salt.getDefaultState().withProperty(BlockOres.VARIANT, Enum_Ore_salt.EnumType.saltsand), 15, BlockMatcher.forBlock(Blocks.SAND));
-        salt_dirt = new WorldGenMinable(BlockInit.salt.getDefaultState().withProperty(BlockOres.VARIANT, Enum_Ore_salt.EnumType.saltdirt), 15, BlockMatcher.forBlock(Blocks.DIRT));
-        salt_gravel = new WorldGenMinable(BlockInit.salt.getDefaultState().withProperty(BlockOres.VARIANT, Enum_Ore_salt.EnumType.saltgravel), 15, BlockMatcher.forBlock(Blocks.GRAVEL));
-        salt_netherrack = new WorldGenMinable(BlockInit.salt.getDefaultState().withProperty(BlockOres.VARIANT, Enum_Ore_salt.EnumType.saltnetherrack), 15, BlockMatcher.forBlock(Blocks.NETHERRACK));
-        salt_endstone = new WorldGenMinable(BlockInit.salt.getDefaultState().withProperty(BlockOres.VARIANT, Enum_Ore_salt.EnumType.saltendstone), 15, BlockMatcher.forBlock(Blocks.END_STONE));
+        salt_sand = new WorldGenMinable(BlockInit.salt.getDefaultState().withProperty(Block_Ore_Salt.VARIANT, Enum_Ore_salt.EnumType.saltsand), 15, BlockMatcher.forBlock(Blocks.SAND));
+        salt_dirt = new WorldGenMinable(BlockInit.salt.getDefaultState().withProperty(Block_Ore_Salt.VARIANT, Enum_Ore_salt.EnumType.saltdirt), 15, BlockMatcher.forBlock(Blocks.DIRT));
+        salt_gravel = new WorldGenMinable(BlockInit.salt.getDefaultState().withProperty(Block_Ore_Salt.VARIANT, Enum_Ore_salt.EnumType.saltgravel), 15, BlockMatcher.forBlock(Blocks.GRAVEL));
+        salt_netherrack = new WorldGenMinable(BlockInit.salt.getDefaultState().withProperty(Block_Ore_Salt.VARIANT, Enum_Ore_salt.EnumType.saltnetherrack), 15, BlockMatcher.forBlock(Blocks.NETHERRACK));
+        salt_endstone = new WorldGenMinable(BlockInit.salt.getDefaultState().withProperty(Block_Ore_Salt.VARIANT, Enum_Ore_salt.EnumType.saltendstone), 15, BlockMatcher.forBlock(Blocks.END_STONE));
     }
 
     @Override

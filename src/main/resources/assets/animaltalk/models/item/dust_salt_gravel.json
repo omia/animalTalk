@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "animaltalk:items/dust_salt_gravel"
+  }
+}

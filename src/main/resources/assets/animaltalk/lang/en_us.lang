@@ -1,6 +1,18 @@
-
 item.tail_monkey.name=MonkeyTail
 
 item.fruit_Banana.name=Banana
 
 tile.block_banana.name=BananaBlock
+
+
+tile.ore_salt_saltsand.name=SandSaltBlock
+tile.ore_salt_saltdirt.name=DirtSaltBlock
+tile.ore_salt_saltgravel.name=GravelSaltBlock
+tile.ore_salt_saltnetherrack.name=NetherrackSaltBlock
+tile.ore_salt_saltendstone.name=EndstoneSaltBlock
+
+item.dust_salt_sand.name=SandSalt
+item.dust_salt_dirt.name=DirtSalt
+item.dust_salt_gravel.name=GravelSalt
+item.dust_salt_netherrack.name=NetherrackSalt
+item.dust_salt_endstone.name=EndstoneSalt
